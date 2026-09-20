@@ -1,8 +1,0 @@
-{
-    "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python.defaultInterpreterPath": "/home/anu/miniconda3/envs/langagent/bin/python",
-    "python.analysis.extraPaths": [
-        "/home/anu/miniconda3/envs/langagent/lib/python3.11/site-packages"
-    ]
-}
