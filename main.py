@@ -1,4 +1,4 @@
-from src.tools.tools import web_search, web_scrape
+from src.pipelines.pipelines import run_research_pipeline
 
-results=web_search.invoke("What is the latest research on multi-agent systems in AI?")
-print("Web Search Results:\n", results)
+topic="Artificial Intelligence in Healthcare"
+run_research_pipeline(topic)
